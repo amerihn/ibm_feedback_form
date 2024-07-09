@@ -55,6 +55,13 @@ nav{
   .feedback-form button:hover {
     background-color: #d94a77;
   }
+
+  /* Rating style */
+  .rating-form {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+  }
   
   /* Media query for smaller screens */
   @media only screen and (max-width: 600px) {
