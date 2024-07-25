@@ -1,11 +1,15 @@
 import React from 'react'
 import './App.css'
 import FeedbackForm from './Components/FeedbackForm'
+import ComLocalStorage from './ComLocalStorage'
+import ComSessionStorage from './ComSessionStorage'
 
 function App() {
   return (
    <>
- <FeedbackForm/>
+      <FeedbackForm/>
+      <ComLocalStorage />
+      <ComSessionStorage />
    </>
   )
 }
